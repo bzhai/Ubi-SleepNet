@@ -36,8 +36,6 @@ class Config(object):
             self.APPLE_CROPPED_RAW_PATH = r"/Dataset/Apple_watch_sleep_dataset/outputs/cropped"
 
             self.TRAIN_TEST_SPLIT = "/assets/train_test_pid_split.csv"
-            # the following settings are designed for add in time modality
-            # the following code is for linear model data loader.
             self.SUMMARY_FOLDER_DICT = {"s": r"/sp_exp_results.csv",
                                         "r": r"/rp_exp_results.csv", }
             self.MESA_HRS_LOOCV = r"/Dataset/MESA/mesa_hrs_loocv"

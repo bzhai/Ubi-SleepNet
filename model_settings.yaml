@@ -1,0 +1,62 @@
+VggAcc79F174_7_RM:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggAcc79F174_RM_SplitModal:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggAcc79F174_RM_SplitModalAdd:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggAcc79F174_RM_SANTiDimMatAttMod1NLayer1Con:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggAcc79F174_RM_SANTimeDimMatrixAttOnMod1NLayer1:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggAcc79F174_RM_BiLinear:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggIMG:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggIMGSum:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggIMGRes:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggIMGResSum:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggAcc79F174ResdPlus:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+ResPlusSplitModalCon:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+ResPlusSplitModalEleMul:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+ResPlusSplitModalPlus:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+ResPlusSplitModal_BiLinear:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+ResPlusSplitModal_SANTiDimMatAttMod1NLayer1Con:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggRawSANTiDimMatAttMod1NLayer1Con:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+ResPlusRawSplitModalCon:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+ResPlusRawSplitModalPlus:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+ResRawPlusSplitModal_SANTiDimMatAttMod1NLayer1Con:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggAcc79F174_RM_BiLinearV2:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggResdPlusCBAM:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggRaw2DConcate:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggRaw2DSum:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggRaw2DResConcate:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggRaw2DResSum:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggAcc79F174_7_RM_Raw_Appl_1_hr:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+VggRawSANTiDimMatAttMod1NLayer1Con_hr:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+ResPlusRawSplitModalCon_hr:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+ResPlusRawSplitModalPlus_hr:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}
+ResRawPlusSplitModal_SANTiDimMatAttMod1NLayer1Con_hr:
+  FC_TEMP_STEPS: {'20': 5, '50': 12, '100': 25}

@@ -1,2 +1,15 @@
 # Ubi-SleepNet
-Three-stage sleep classification using advanced multimodal fusion methods. The code will be uploaded from this week.
+This is the code repository for paper: Ubi-SleepNet: Advanced Multimodal Fusion Techniques for
+Three-stage Sleep Classification Using Ubiquitous Sensing.
+
+## Dataset Download
+* [MESA Dataset](https://sleepdata.org/datasets/mesa)
+* [Apple Watch](https://physionet.org/content/sleep-accel/1.0.0/heart_rate/)
+
+## Dataset Building
+* This repository includes the builders for MESA statistic features and Apple Watch dataset with statistic features
+* For the MESA with HRV feature set, please go to [MakeSenseOfSleep](https://github.com/bzhai/multimodal_sleep_stage_benchmark). It includes a dataset builder that can build the HRV feature dataset.
+* This repository also includes a data builder to build the dataset that uses the raw accelerometer 
+and HR data collected from the Apple Watch dataset.
+
+

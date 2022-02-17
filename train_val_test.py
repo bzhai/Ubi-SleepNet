@@ -1,7 +1,7 @@
 import argparse
 
 from copy import copy
-from models.build_model import build_model,get_num_in_channel
+from models.build_model import build_model, get_num_in_channel
 
 from data_loader.TorchFrameDataLoader import *
 import torch
@@ -40,7 +40,7 @@ def main(args):
     torch.backends.cudnn.benchmark = True
 
     criterion = nn.CrossEntropyLoss()
-    log_root = os.path.join(r"after2021-02-24_train_val_test/tfboard", args.dataset, args.nn_type)
+    log_root = os.path.join(r"tfboard", args.dataset, args.nn_type)
     tracker = ClassificationTracker(args, tensorboard_dir=log_root, master_kpi_path="./exp_results.csv")
     sys.stdout = Logger(tracker.tensorboard_path)
 
@@ -215,9 +215,9 @@ def main(args):
 def parse_arguments(argv):
     parser = argparse.ArgumentParser()
     # specialised parameters
-    parser.add_argument('--nn_type', type=str, default="VggAcc79F174ResdPlus",
+    parser.add_argument('--nn_type', type=str, default="ResPlusSplitModal_SANTiDimMatAttMod1NLayer1Con",
                         help='define the neural network type')
-    parser.add_argument('--att_on_modality', type=str, default="none", help="act, car, none")
+    parser.add_argument('--att_on_modality', type=str, default="car", help="act, car, none")
     # general parameters for all models
     parser.add_argument('--optim', type=str, default="ADAM", help='optimisation')
     parser.add_argument('--log_interval', type=int, default=100, help='interval to log metrics')
@@ -227,7 +227,7 @@ def parse_arguments(argv):
     parser.add_argument('--batch_size', type=int, default=1024, help='training batch size')
     parser.add_argument('--lr', type=float, default=1e-4, help='learning rate')
     parser.add_argument('--debug', type=int, default=0, help='debug model')
-    parser.add_argument('--dataset', type=str, default="apple", help="apple, mesa, mesa_hr_statistic")
+    parser.add_argument('--dataset', type=str, default="mesa_hr_statistic", help="apple, mesa, mesa_hr_statistic")
     parser.add_argument('--feature_type', type=str, default="all", help="all, hrv, hr, and so on")
     parser.add_argument('--seq_len', type=int, default=100, help="100, 50, 20 corresponding to 101, 51, and 21")
     parser.add_argument('--comments', type=str, default="", help="comments to append")

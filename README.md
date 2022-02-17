@@ -13,6 +13,9 @@ Three-stage Sleep Classification Using Ubiquitous Sensing.
 * This repository also includes a data builder to build the dataset that uses the raw accelerometer 
 and HR data collected from the Apple Watch dataset.
 
+## Set up environment
+To ensure the experiments run smoothly, please create a **python 3.8** environment, and please be aware, the `pytables` and `h5py` requires to be installed via `conda` . 
+
 ## Running Experiments
 you could run a non-attention based model by:
 

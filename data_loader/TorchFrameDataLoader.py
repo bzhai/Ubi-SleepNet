@@ -5,7 +5,6 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 from utilities.utils import *
 from sklearn.metrics import f1_score, classification_report, confusion_matrix
-
 from sleep_stage_config import Config
 import numpy as np
 import pandas as pd
@@ -333,10 +332,3 @@ def get_mesa_loocv_ids(cfg:Config, fold):
     test_pid = split_df[(split_df['set_type']=="test") & (split_df['fold_num']==fold)]['pid'].values.tolist()
     return train_pid, val_pid, test_pid
 
-if __name__ == "__main__":
-    cfg = Config()
-    # train_loader, test_loader, val_loader = get_windowed_train_test_val_loader(cfg, 100, 100, 3, "apple")
-    train_loader = get_windowed_apple_loader(cfg, 100, 3)
-    for i, data in enumerate(train_loader):
-        print(data[0].shape)
-    print("output shape")

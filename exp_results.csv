@@ -1,0 +1,3 @@
+tf,seq_len,seed,save_eval,optim,num_classes,nn_type,momentum,macro_specificity,macro_recall,macro_precision,macro_f1,macro_cohen,macro_accuracy,machine,lr,log_interval,feature_type,epochs,debug,dataset,comments,best epochs,batch_size,att_on_modality
+20220213-091006,100,42,0,ADAM,3,ResPlusSplitModal_SANTiDimMatAttMod1NLayer1Con,0.9,83.35970462537459,60.67345680087908,79.38325967751382,63.724707479022655,57.780357946414604,75.71421512406603,BB-WIN8,0.0001,100,all,1,0,mesa_hr_statistic,,0,1024,car
+20220212-192655,100,42,0,ADAM,3,ResPlusSplitModal_SANTiDimMatAttMod1NLayer1Con,0.9,87.81006636776577,73.89178157246693,73.58319574991444,73.73498265797087,65.62108186949813,78.57575686647785,BB-WIN8,0.0001,100,all,20,0,mesa,,4,4096,car

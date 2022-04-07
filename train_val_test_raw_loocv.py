@@ -42,13 +42,14 @@ def get_total_folds_raw_data(dataset_name):
 
 def main(args):
     setup_seed(args.seed)
+    
     cfg = Config()
     total_folds = get_total_folds_raw_data(args.dataset)
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     torch.backends.cudnn.benchmark = True
 
     criterion = nn.CrossEntropyLoss()
-    log_root = os.path.join(r"after2021-02-24_train_val_test/tfboard", args.dataset, args.nn_type)
+    log_root = os.path.join(r"tfboard", args.dataset, args.nn_type)
     tracker = ClassificationTracker(args, tensorboard_dir=log_root, master_kpi_path="./exp_results.csv")
     sys.stdout = Logger(tracker.tensorboard_path)
 

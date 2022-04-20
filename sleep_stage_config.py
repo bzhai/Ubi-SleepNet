@@ -34,7 +34,7 @@ class Config(object):
             self.APPLE_HRV30_ACC_STD_PATH = r"Dataset/Apple_watch_sleep_dataset/outputs/features/apple_hr30s_acc30s_full_feat_stand.h5"
             self.APPLE_LOOCV_PID_PATH = r"Dataset/Apple_watch_sleep_dataset/outputs/features/apple_16_fold.csv"
             self.APPLE_CROPPED_RAW_PATH = r"Dataset/Apple_watch_sleep_dataset/outputs/cropped"
-
+            self.APPLE_LOOCV_ALL_WINDOWED = r"Dataset/apple_loocv_windowed_%d.h5"
             self.TRAIN_TEST_SPLIT = "/assets/train_test_pid_split.csv"
             self.SUMMARY_FOLDER_DICT = {"s": r"sp_exp_results.csv",
                                         "r": r"rp_exp_results.csv", }

@@ -1,10 +1,14 @@
 # Ubi-SleepNet
 This is the code repository for paper: Ubi-SleepNet: Advanced Multimodal Fusion Techniques for
 Three-stage Sleep Classification Using Ubiquitous Sensing.
-
+## Updates
+* 2022-04-20 Uploaded the windowed Apple Watch raw data dataset.
 ## Dataset Download
 * [MESA Dataset](https://sleepdata.org/datasets/mesa)
 * [Apple Watch](https://physionet.org/content/sleep-accel/1.0.0/heart_rate/)
+* [Windowed Apple Watch H5 File](https://drive.google.com/drive/folders/1GDPVpUZMes8FZz1fieGQt0eYBEiakUke?usp=sharing) Please download the H5 files and put it into the Dataset folder
+## Models Trained in the paper:
+
 
 ## Dataset Building
 * Data Pre-processing code is available at:[MakeSenseOfSleep](https://github.com/bzhai/multimodal_sleep_stage_benchmark) which should produce a h5 file for MESA dataset.
@@ -25,3 +29,16 @@ you could run a non-attention based model by:
 To run the attention model, the modality should be specified. The code below is an example:
 
     python -m train_val_test --nn_type VggAcc79F174_SplitModal_SANTimeDimMatrixAttOnMod1NLayer1 --epochs 20 --dataset mesa --att_on_modality act
+
+## Citation 
+If you found this paper is helpful and like it. Please don't mind citing it and thank you. 
+```@article{zhai2021ubi,
+  title={Ubi-SleepNet: Advanced Multimodal Fusion Techniques for Three-stage Sleep Classification Using Ubiquitous Sensing},
+  author={Zhai, Bing and Guan, Yu and Catt, Michael and Pl{\"o}tz, Thomas},
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={5},
+  number={4},
+  pages={1--33},
+  year={2021},
+  publisher={ACM New York, NY, USA}
+}```

@@ -3,6 +3,7 @@ This is the code repository for paper: Ubi-SleepNet: Advanced Multimodal Fusion 
 Three-stage Sleep Classification Using Ubiquitous Sensing.
 ## Updates
 * 2022-04-20 Uploaded a preprocessed and windowed Apple Watch dataset based on raw accelerometer data and heart rate.
+* 2022-05-05 Uploaded preprocessed CSV files of the Apple Watch dataset
 ## Dataset Download
 * [MESA Dataset](https://sleepdata.org/datasets/mesa)
 * [Apple Watch](https://physionet.org/content/sleep-accel/1.0.0/heart_rate/)

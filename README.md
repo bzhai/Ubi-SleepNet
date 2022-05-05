@@ -2,11 +2,11 @@
 This is the code repository for paper: Ubi-SleepNet: Advanced Multimodal Fusion Techniques for
 Three-stage Sleep Classification Using Ubiquitous Sensing.
 ## Updates
-* 2022-04-20 Uploaded the windowed Apple Watch raw data dataset.
+* 2022-04-20 Uploaded a preprocessed and windowed Apple Watch dataset based on raw accelerometer data and heart rate.
 ## Dataset Download
 * [MESA Dataset](https://sleepdata.org/datasets/mesa)
 * [Apple Watch](https://physionet.org/content/sleep-accel/1.0.0/heart_rate/)
-* [Windowed Apple Watch H5 File](https://drive.google.com/drive/folders/1GDPVpUZMes8FZz1fieGQt0eYBEiakUke?usp=sharing) Please download the H5 files and put it into the Dataset folder
+* [Preprocessed Apple Watch H5 file used in the paper](https://drive.google.com/drive/folders/1GDPVpUZMes8FZz1fieGQt0eYBEiakUke?usp=sharing) Please download the H5 files and put it into the Dataset folder
 ## Models Trained in the paper:
 
 

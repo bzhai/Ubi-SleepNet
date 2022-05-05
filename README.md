@@ -7,6 +7,7 @@ Three-stage Sleep Classification Using Ubiquitous Sensing.
 * [MESA Dataset](https://sleepdata.org/datasets/mesa)
 * [Apple Watch](https://physionet.org/content/sleep-accel/1.0.0/heart_rate/)
 * [Preprocessed Apple Watch H5 file used in the paper](https://drive.google.com/drive/folders/1GDPVpUZMes8FZz1fieGQt0eYBEiakUke?usp=sharing) Please download the H5 files and put it into the Dataset folder
+* [Preprocessed Apple Watch CSV file used in the paper](https://drive.google.com/drive/folders/1nZ3Bu0P6z_7jM-eFiNTvDmNtshMOzhZC?usp=sharing) Please download the H5 files and put it into the Dataset folder
 ## Models Trained in the paper:
 
 

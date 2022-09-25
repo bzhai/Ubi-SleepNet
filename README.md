@@ -3,6 +3,7 @@ This is the code repository for paper: Ubi-SleepNet: Advanced Multimodal Fusion 
 Three-stage Sleep Classification Using Ubiquitous Sensing.
 ## Updates
 * 2022-04-20 Uploaded the windowed Apple Watch raw data dataset.
+* 2022-09-24 Updated the Apple Watch data set building process.
 ## Dataset Download
 * [MESA Dataset](https://sleepdata.org/datasets/mesa)
 * [Apple Watch](https://physionet.org/content/sleep-accel/1.0.0/heart_rate/)
@@ -17,6 +18,9 @@ Three-stage Sleep Classification Using Ubiquitous Sensing.
 * This repository also includes a data builder to build the dataset that uses the raw accelerometer
 and HR data collected from the Apple Watch dataset.
 * The data processing code was adapted from [link](https://github.com/ojwalch/sleep_classifiers.git) and located under the `applewatch_dataprocessing` folder. I also updated the processed data in `outputs\features`.
+* #### Apple Watch Dataset Building Process
+    * If you use Pycharm, please make sure you open the project from the folder of "applewatch_dataprocessing". In this way, the "import package" issue will be disappeared.
+    * Once you have done the previous step, the details regarding the dataset building pipeline can be found in its _readme.md_ file
 
 ## Set up environment
 To ensure the experiments run smoothly, please create a **python 3.8** environment, and please be aware, the `pytables` and `h5py` requires to be installed via `conda` .

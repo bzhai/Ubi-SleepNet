@@ -10,7 +10,7 @@ from source.preprocessing.time.circadian_service import CircadianService
 
 def run_preprocessing(subject_set, crop=False):
     start_time = time.time()
-    # Ben: we only need crop the data once
+    # we only need crop the data once
     if crop:
         for subject in subject_set:
             print("Cropping data from subject " + str(subject) + "...")
@@ -27,8 +27,10 @@ def run_preprocessing(subject_set, crop=False):
     print("Execution took " + str((end_time - start_time) / 60) + " minutes")
 
 
+first_time_build = True
+is_plot = False
 subject_ids = SubjectBuilder.get_all_subject_ids()
-run_preprocessing(subject_ids, crop=False)
-
-for subject in subject_ids:
-    DataPlotBuilder.make_data_demo(subject, False)
+run_preprocessing(subject_ids, crop=first_time_build)
+if is_plot:
+    for subject in subject_ids:
+        DataPlotBuilder.make_data_demo(subject, False)

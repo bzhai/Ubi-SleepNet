@@ -12,12 +12,13 @@ Data collected using the Apple Watch is available on PhysioNet: [link](https://a
 
 The MESA dataset is available for download at the [National Sleep Research Resource](https://sleepdata.org). You will have to request access from NSRR for the data.
 
-Once the data has been download, please put all files along with the directories under the data folder.
+Once the data has been download, please put all files along with the directories under the **data** folder.
 ## Features + figures
 
-All raw data are cleaned and features are generated in ```preprocessing_runner.py.```
+* All raw data are cleaned and features are generated in ```preprocessing_runner.py.```. 
+* For the first time run, please make sure you change the value as:``first_time_build=True``.
 
-The file ```analysis_runner.py``` can be used to generate figures showing classifier performance.  You can comment and uncomment the figures you want to run. 
+* The file ```analysis_runner.py``` can be used to generate figures showing classifier performance.  You can comment and uncomment the figures you want to run. 
 
 
 ## License

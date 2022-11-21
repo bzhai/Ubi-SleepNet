@@ -37,13 +37,20 @@ To run the attention model, the modality should be specified. The code below is 
 
 ## Citation
 If you found this paper is helpful and like it. Please don't mind citing it and thank you.
-```@article{zhai2021ubi,
-  title={Ubi-SleepNet: Advanced Multimodal Fusion Techniques for Three-stage Sleep Classification Using Ubiquitous Sensing},
-  author={Zhai, Bing and Guan, Yu and Catt, Michael and Pl{\"o}tz, Thomas},
-  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
-  volume={5},
-  number={4},
-  pages={1--33},
-  year={2021},
-  publisher={ACM New York, NY, USA}
+```@article{10.1145/3494961,
+author = {Zhai, Bing and Guan, Yu and Catt, Michael and Pl\"{o}tz, Thomas},
+title = {Ubi-SleepNet: Advanced Multimodal Fusion Techniques for Three-Stage Sleep Classification Using Ubiquitous Sensing},
+year = {2022},
+issue_date = {Dec 2021},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {5},
+number = {4},
+url = {https://doi.org/10.1145/3494961},
+doi = {10.1145/3494961},
+journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+month = {dec},
+articleno = {191},
+numpages = {33},
+keywords = {Multimodal Fusion, Wearable, Neural Networks, Sleep Monitoring, Apple Watch, Deep Learning, Three Sleep Stages, MESA, Heart Rate Variability, Heart Rate, Ubiquitous Sensing}
 }```
